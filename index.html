@@ -55,11 +55,11 @@
         updateBannerVisibility();
       }
 
-      var buildUrl = "";
-      var loaderUrl = "/Build.loader.js";
+      var buildUrl = "Build";
+      var loaderUrl = buildUrl + "/_Build.loader.js";
       var config = {
         dataUrl: buildUrl + "/_Build.data.br",
-        frameworkUrl: "Build.framework.js.br",
+        frameworkUrl: buildUrl + "/_Build.framework.js.br",
         codeUrl: buildUrl + "/_Build.wasm.br",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "DefaultCompany",
